@@ -18,7 +18,7 @@ namespace Factorial
                 int factorial = Convert.ToInt32(Console.ReadLine());
                 int a = factorial;
                 int answer = 1;
-                for (int i = 1; i <= factorial; i++)
+                for (int i = 1; i <= factorial; ++i)
                 {
                     answer *= i;
                 }
