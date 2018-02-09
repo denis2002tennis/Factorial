@@ -20,7 +20,7 @@ namespace Factorial
                 int answer = 1;
                 for (int i = 1; i <= factorial; i++)
                 {
-                    answer = answer * i;
+                    answer *= i;
                 }
                 Console.WriteLine("Факториал " + factorial + " это " + answer);
             }
