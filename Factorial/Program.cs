@@ -10,7 +10,7 @@ namespace Factorial
     {
         static void Main(string[] args)
         {
-            while(true)
+            for(;;)
             {
 
 
@@ -23,7 +23,6 @@ namespace Factorial
                     answer = answer * i;
                 }
                 Console.WriteLine("Факториал " + factorial + " это " + answer);
-
             }
             
         }
